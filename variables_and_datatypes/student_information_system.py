@@ -1,0 +1,21 @@
+student_name = input("Enter Student Name: ")
+age = int(input("Enter Age: "))
+gender = input("Enter Gender: ")
+college_name = input("Enter College Name: ")
+branch = input("Enter Branch: ")
+semester = int(input("Enter Semester: "))
+roll_number = input("Enter Roll Number: ")
+cgpa = float(input("Enter CGPA: "))
+
+print("=" * 15,"Student Details","="*15)
+
+print("Name        :", student_name)
+print("Age         :", age)
+print("Gender      :", gender)
+print("College     :", college_name)
+print("Branch      :", branch)
+print("Semester    :", semester)
+print("Roll Number :", roll_number)
+print("CGPA        :", cgpa)
+
+print("=" * 40)
