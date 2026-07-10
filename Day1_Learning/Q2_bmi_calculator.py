@@ -6,11 +6,11 @@ bmi=(weight/(height*height))
 print("hello",name)
 print(f"your BMI is: {bmi:.2f}")
 
-if BMI<18.5:
+if bmi<18.5:
     print("category : underweight")
-elif BMI<25:
+elif bmi<25:
     print("category : normal weight")    
-elif BMI<30:
+elif bmi<30:
     print("category : overweight")  
 else:
     print("category : obese")      
