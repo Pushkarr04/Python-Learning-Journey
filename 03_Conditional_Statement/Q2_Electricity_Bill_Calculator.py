@@ -1,11 +1,11 @@
-Customer_name=input("Enter customer name : ")
+customer_name=input("Enter customer name : ")
 unit_consumed=int(input("Enter unit consumed :"))
 
 print("="*30)
 print("ELECTRICITY BILL")
 print("="*30)
 
-print(f"Customer name : {Customer_name}")
+print(f"Customer name : {customer_name}")
 print(f"Unit Consumed : {unit_consumed}\n")
 
 if(unit_consumed<=100):
