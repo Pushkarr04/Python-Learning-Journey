@@ -12,7 +12,7 @@ valid=True
 
 if(number>0):
     for i in range(1,number+1):
-        product_name=input("Enter product name : ")
+        product_name=input(f"Enter product name {i} : ")
         quantity=int(input("Quantity sold : "))
         price=float(input("Enter price of 1 product: "))
         if (quantity>=0 and price>=0):
