@@ -56,7 +56,7 @@ while True:
     elif(choice==3):
         search=input("Enter student matrks  : ")
         new_mark=int(input("Enter new marks for updation : "))
-
+           
         if search in names:
             found_at=names.index(search)
             if 0<=new_mark<=100:
